@@ -1,0 +1,2800 @@
+{
+  "Version": 79,
+  "ExpressionProfiles": [
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "Healthy",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2D6",
+      "Category": "Healthy",
+      "Parameters": [
+        {
+          "Path": "CYP2D6|Reference concentration",
+          "Value": 0.4,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (liver)",
+          "Value": 51.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.00768702814
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.768702814
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0208304736
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0223404255
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP2D6"
+      }
+    }
+  ],
+  "Individuals": [
+    {
+      "Name": "Calvo 2004, n=22",
+      "Seed": 520732703,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "FEMALE",
+        "Age": {
+          "Value": 26.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 64.0,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 168.0,
+          "Unit": "cm"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy"
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Paroxetine",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "optimized",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 3.95,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 29 (lin)' on 2021-02-04 08:58"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Agrawal 2013",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 3.95,
+              "Unit": "Log Units"
+            }
+          ]
+        },
+        {
+          "Name": "ChemAxon",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 3.15,
+              "Unit": "Log Units"
+            }
+          ]
+        },
+        {
+          "Name": "Zhong 2014",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 3.4,
+              "Unit": "Log Units"
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.0487321988,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Value updated from 'Parameter Identification 6' on 2020-03-09 08:28"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Khatavkar 2013 (pH 4.5)",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 7.31,
+              "Unit": "mg/ml"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 4.5
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 3.93E-05,
+              "Unit": "cm/min"
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 9.9,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Agrawal 2013"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "Jornil 2010",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 9.7,
+              "Unit": "pmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 0.028,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 2' on 2019-08-02 15:17"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 1.3693020782,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'iv + po solution + PMs + EMs - CYP2D6 kcat - CYP3A4/hep. clearance, permeability + Lipophilicity fixed' on 2021-11-11 09:41"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "Jornil 2010",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 5.32,
+              "Unit": "pmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 4.7,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 29' on 2020-06-09 17:33"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 1.01,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'iv + po solution + PMs + EMs - CYP2D6 kcat - CYP3A4/hep. clearance, permeability + Lipophilicity fixed' on 2021-11-11 09:41"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Assumption",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        },
+        {
+          "InternalName": "IrreversibleInhibition",
+          "DataSource": "Obach, 2007",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "kinact",
+              "Value": 0.17,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 29' on 2020-06-09 17:33"
+              }
+            },
+            {
+              "Name": "K_kinact_half",
+              "Value": 0.16738,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 28' on 2020-05-19 09:02"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "IrreversibleInhibition",
+          "DataSource": "Obach 2007",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "kinact",
+              "Value": 0.011,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 29' on 2020-06-09 17:33"
+              }
+            },
+            {
+              "Name": "K_kinact_half",
+              "Value": 4.48,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 28' on 2020-05-19 09:02"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "AS=2",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 9.7,
+              "Unit": "pmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 0.028,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 4.09,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "ManualFit"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "AS=1.5",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 9.7,
+              "Unit": "pmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 0.028,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 2.71,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "ManualFit",
+                "Description": "AS Model"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "AS=1.25",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 9.7,
+              "Unit": "pmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 0.028,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 2.11,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "ManualFit",
+                "Description": "AS-Model"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "AS=1",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 9.7,
+              "Unit": "pmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 0.028,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 1.56,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "ManualFit",
+                "Description": "AS Model"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "AS=0.5",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 9.7,
+              "Unit": "pmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 0.028,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.66,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "ManualFit",
+                "Description": "AS Model"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "AS=0",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 9.7,
+              "Unit": "pmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 0.028,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.0,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "AS=3",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 9.7,
+              "Unit": "pmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 0.028,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 7.58,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "ManualFit",
+                "Description": "AS Model"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "AS=0.75",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 9.7,
+              "Unit": "pmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 0.028,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 1.08,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "ManualFit",
+                "Description": "AS Model"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "LiverClearance",
+          "DataSource": "Assumption",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.0487321988
+            },
+            {
+              "Name": "Lipophilicity (experiment)",
+              "Value": 3.95,
+              "Unit": "Log Units"
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 0.0,
+              "Unit": "ml/min/kg"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 2.2538632474,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 34' on 2021-11-03 08:51"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "F",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 329.37,
+          "Unit": "g/mol"
+        }
+      ]
+    },
+    {
+      "Name": "Alprazolam",
+      "IsSmallMolecule": true,
+      "Lipophilicity": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.0799268917,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.233,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVivo",
+                "Description": "PMID: 1880224"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 40.0,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 7.6146060669,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 2.4,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "alpha-OH pathway",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.131,
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 11745908"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 269.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 11745908"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.8066945978,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 0.5461456402,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "4-OH pathway",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 2.23,
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 11745908"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 704.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 11745908"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 13.7322820855,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 308.765,
+          "Unit": "g/mol"
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "solution",
+      "FormulationType": "Formulation_Dissolved"
+    },
+    {
+      "Name": "Xanax_IR",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 12.1060809908,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.92,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 20.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 15.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 1.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 15.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Calvo 2004 - Paroxetine po 20 mg qd 15 days",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days"
+      ],
+      "Solver": {
+        "AbsTol": 1E-14,
+        "RelTol": 1E-09
+      },
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 450.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Calvo 2004, n=22",
+      "Compounds": [
+        {
+          "Name": "Paroxetine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Jornil 2010",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2D6-Jornil 2010",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days",
+            "Formulations": [
+              {
+                "Name": "solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Calvo 2004 - Paroxetine po 20 mg qd 15 days-Paroxetine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Calvo 2004 - Paroxetine po 20 mg qd 15 days|Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days-Paroxetine-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|Time",
+              "Y": "Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|ObservedData|Peripheral Venous Blood|Plasma|Paroxetine|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "paroxetine_ddi_V11\nCalvo 2004 - Paroxetine po 20 mg qd 15 days\n2023-01-02 13:40"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Obach 2007",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Paroxetine"
+        },
+        {
+          "Name": "CYP2D6-Obach, 2007",
+          "MoleculeName": "CYP2D6",
+          "CompoundName": "Paroxetine"
+        }
+      ]
+    },
+    {
+      "Name": "Calvo 2004 - Alprazolam po 1 mg qd 15 days",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Calvo 2004 - Aprazolam, po, 1 mg, qd, 15 days"
+      ],
+      "Solver": {
+        "AbsTol": 1E-14,
+        "RelTol": 1E-09
+      },
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 450.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Calvo 2004, n=22",
+      "Compounds": [
+        {
+          "Name": "Alprazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-alpha-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A4-4-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days",
+            "Formulations": [
+              {
+                "Name": "Xanax_IR",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 323.7374,
+              "Max": 425.6229,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (mass)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.562089,
+              "Max": 21.72474,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Calvo 2004 - Aprazolam, po, 1 mg, qd, 15 days-Alprazolam-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Calvo 2004 - Aprazolam, po, 1 mg, qd, 15 days|Time",
+              "Y": "Calvo 2004 - Aprazolam, po, 1 mg, qd, 15 days|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Calvo 2004 - Alprazolam po 1 mg qd 15 days|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "paroxetine_ddi_V11\nCalvo 2004 - Alprazolam po 1 mg qd 15 days\n2023-01-04 12:30"
+        }
+      ]
+    },
+    {
+      "Name": "Calvo 2004 - DDI - Paroxetine-Alprazolam, 20/1 mg, qd, 15 days",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Calvo 2004 - DDI - Aprazolam, po, 1 mg, qd, 15 days",
+        "Calvo 2004 - DDI - Paroxetine, po, 20 mg, qd, 15 days"
+      ],
+      "Solver": {
+        "AbsTol": 1E-14,
+        "RelTol": 1E-09
+      },
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 450.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days|Xanax_IR|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Calvo 2004, n=22",
+      "Compounds": [
+        {
+          "Name": "Paroxetine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Jornil 2010",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2D6-Jornil 2010",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days",
+            "Formulations": [
+              {
+                "Name": "solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Alprazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-alpha-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A4-4-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Calvo 2004 - Alprazolam, po, 1 mg, qd, 15 days",
+            "Formulations": [
+              {
+                "Name": "Xanax_IR",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Calvo 2004 - DDI - Paroxetine-Alprazolam, 20/1 mg, qd, 15 days-Paroxetine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Calvo 2004 - DDI - Paroxetine-Alprazolam, 20/1 mg, qd, 15 days|Organism|PeripheralVenousBlood|Paroxetine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Calvo 2004 - DDI - Aprazolam, po, 1 mg, qd, 15 days-Alprazolam-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Calvo 2004 - DDI - Aprazolam, po, 1 mg, qd, 15 days|Time",
+              "Y": "Calvo 2004 - DDI - Aprazolam, po, 1 mg, qd, 15 days|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Calvo 2004 - DDI - Paroxetine, po, 20 mg, qd, 15 days-Paroxetine-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "Calvo 2004 - DDI - Paroxetine, po, 20 mg, qd, 15 days|Time",
+              "Y": "Calvo 2004 - DDI - Paroxetine, po, 20 mg, qd, 15 days|ObservedData|Peripheral Venous Blood|Plasma|Paroxetine|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Calvo 2004 - DDI - Paroxetine-Alprazolam, 20/1 mg, qd, 15 days|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "paroxetine_ddi_V11\nCalvo 2004 - DDI - Paroxetine-Alprazolam, 20/1 mg, qd, 15 days\n2023-09-06 11:41"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Obach 2007",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Paroxetine"
+        },
+        {
+          "Name": "CYP2D6-Obach, 2007",
+          "MoleculeName": "CYP2D6",
+          "CompoundName": "Paroxetine"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days",
+      "ExtendedProperties": [
+        {
+          "Name": "Molecule",
+          "Value": "Paroxetine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|ObservedData|Peripheral Venous Blood|Plasma|Paroxetine|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 329.37
+              },
+              "Values": [
+                3.0934,
+                2.8678,
+                2.93229985,
+                3.3511,
+                3.2227,
+                3.1257,
+                3.3515,
+                3.22220016,
+                3.3834,
+                3.64110017,
+                3.9632,
+                3.1257,
+                2.9001,
+                2.9645,
+                3.04490018,
+                2.55770016,
+                1.827,
+                1.218
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|ObservedData|Peripheral Venous Blood|Plasma|Paroxetine|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 329.37
+          },
+          "Values": [
+            26.3169,
+            26.2482986,
+            27.0818,
+            30.2031,
+            32.6804,
+            35.6403,
+            40.0507,
+            42.7208,
+            44.0375977,
+            44.8994026,
+            43.4406,
+            37.656002,
+            33.8044,
+            33.8196,
+            28.8289,
+            15.7562,
+            8.7733,
+            5.6472
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          336.0,
+          336.5,
+          337.0,
+          337.5,
+          338.0,
+          338.5,
+          339.0,
+          339.5,
+          340.0,
+          341.0,
+          342.0,
+          344.0,
+          346.0,
+          348.0,
+          360.0,
+          384.0,
+          408.0,
+          432.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Calvo 2004 - DDI - Paroxetine, po, 20 mg, qd, 15 days",
+      "ExtendedProperties": [
+        {
+          "Name": "Molecule",
+          "Value": "Paroxetine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "Calvo 2004 - DDI - Paroxetine, po, 20 mg, qd, 15 days|ObservedData|Peripheral Venous Blood|Plasma|Paroxetine|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 329.37
+              },
+              "Values": [
+                3.12539983,
+                3.5446,
+                3.3832,
+                3.4476,
+                3.1902,
+                3.3833,
+                3.5445,
+                3.5445,
+                3.64110017,
+                3.9632,
+                4.31800032,
+                3.9633,
+                3.9634,
+                4.0276,
+                3.81619978,
+                2.9636,
+                2.233,
+                1.90809989
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Calvo 2004 - DDI - Paroxetine, po, 20 mg, qd, 15 days|ObservedData|Peripheral Venous Blood|Plasma|Paroxetine|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 329.37
+          },
+          "Values": [
+            28.8303986,
+            29.5994,
+            29.3696,
+            31.5243015,
+            33.5821,
+            35.7372,
+            40.5017,
+            43.3009,
+            44.6821976,
+            45.3828,
+            45.084198,
+            40.4272,
+            37.9933968,
+            35.8496971,
+            30.9807014,
+            17.4614,
+            10.0724,
+            6.784
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Calvo 2004 - DDI - Paroxetine, po, 20 mg, qd, 15 days|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          336.0,
+          336.5,
+          337.0,
+          337.5,
+          338.0,
+          338.5,
+          339.0,
+          339.5,
+          340.0,
+          341.0,
+          342.0,
+          344.0,
+          346.0,
+          348.0,
+          360.0,
+          384.0,
+          408.0,
+          432.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Calvo 2004 - Aprazolam, po, 1 mg, qd, 15 days",
+      "ExtendedProperties": [
+        {
+          "Name": "Molecule",
+          "Value": "Alprazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "Calvo 2004 - Aprazolam, po, 1 mg, qd, 15 days|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 308.765
+              },
+              "Values": [
+                0.0,
+                1.38089991,
+                0.766,
+                0.0,
+                0.7862,
+                0.776100039,
+                0.0,
+                0.6854,
+                0.0,
+                0.7056,
+                0.6753,
+                0.6652,
+                0.0,
+                0.645,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Calvo 2004 - Aprazolam, po, 1 mg, qd, 15 days|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 308.765
+          },
+          "Values": [
+            5.1032,
+            16.009,
+            19.4159,
+            18.7909,
+            17.8837986,
+            17.6822014,
+            17.4,
+            16.3114,
+            14.7189,
+            13.6102,
+            12.7836,
+            11.0903006,
+            9.921101,
+            8.7721,
+            4.875,
+            1.6032,
+            0.5934
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Calvo 2004 - Aprazolam, po, 1 mg, qd, 15 days|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          336.0,
+          336.5,
+          337.0,
+          337.5,
+          338.0,
+          338.5,
+          339.0,
+          339.5,
+          340.0,
+          341.0,
+          342.0,
+          344.0,
+          346.0,
+          348.0,
+          360.0,
+          384.0,
+          408.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Calvo 2004 - DDI - Aprazolam, po, 1 mg, qd, 15 days",
+      "ExtendedProperties": [
+        {
+          "Name": "Molecule",
+          "Value": "Alprazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "Calvo 2004 - DDI - Aprazolam, po, 1 mg, qd, 15 days|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 308.765
+              },
+              "Values": [
+                0.0,
+                1.52,
+                1.096,
+                0.0,
+                0.768,
+                0.712,
+                0.0,
+                0.608,
+                0.0,
+                0.6,
+                0.567999959,
+                0.584,
+                0.0,
+                0.52,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Calvo 2004 - DDI - Aprazolam, po, 1 mg, qd, 15 days|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 308.765
+          },
+          "Values": [
+            5.128,
+            15.208,
+            18.0080013,
+            18.8,
+            17.992,
+            18.184,
+            17.4,
+            15.9920006,
+            14.696,
+            13.816,
+            12.92,
+            11.3359995,
+            9.9279995,
+            8.247999,
+            4.577,
+            1.1788,
+            0.4574
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Calvo 2004 - DDI - Aprazolam, po, 1 mg, qd, 15 days|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          336.0,
+          336.5,
+          337.0,
+          337.5,
+          338.0,
+          338.5,
+          339.0,
+          339.5,
+          340.0,
+          341.0,
+          342.0,
+          344.0,
+          346.0,
+          348.0,
+          360.0,
+          384.0,
+          408.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "ObservedDataClassifications": [
+    {
+      "Name": "alprazolam ddi",
+      "Classifiables": [
+        "Calvo 2004 - Paroxetine, po, 20 mg, qd, 15 days",
+        "Calvo 2004 - DDI - Paroxetine, po, 20 mg, qd, 15 days",
+        "Calvo 2004 - Aprazolam, po, 1 mg, qd, 15 days",
+        "Calvo 2004 - DDI - Aprazolam, po, 1 mg, qd, 15 days"
+      ]
+    }
+  ],
+  "SimulationClassifications": [
+    {
+      "Name": "alprazolam ddi",
+      "Classifiables": [
+        "Calvo 2004 - Alprazolam po 1 mg qd 15 days",
+        "Calvo 2004 - DDI - Paroxetine-Alprazolam, 20/1 mg, qd, 15 days",
+        "Calvo 2004 - Paroxetine po 20 mg qd 15 days"
+      ]
+    }
+  ]
+}
